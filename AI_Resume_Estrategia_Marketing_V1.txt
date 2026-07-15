@@ -1,0 +1,415 @@
+AI RESUME — ESTRATÉGIA DE MARKETING GLOBAL (V1)
+============================================================
+
+Produto
+-------
+AI Resume
+
+Slogan
+------
+Turning resumes into jobs
+
+Assinatura institucional
+------------------------
+Powered by R² Solutions Group
+
+Observação estratégica:
+A marca “R² Solutions Group” deve aparecer como endosso institucional e tecnológico,
+transmitindo credibilidade, engenharia e visão de longo prazo, sem competir com a marca principal AI Resume.
+
+========================================================================================================================
+1) OBJETIVO DA ESTRATÉGIA DE MARKETING
+========================================================================================================================
+
+Objetivo principal
+------------------
+Gerar tráfego qualificado, conversões pagas e assinaturas recorrentes para o AI Resume,
+utilizando tráfego pago em redes sociais, com foco inicial em Instagram e LinkedIn.
+
+Objetivos secundários
+---------------------
+- Validar rapidamente o produto em diferentes mercados.
+- Testar mensagens (copies) e públicos.
+- Construir percepção de produto premium e confiável.
+- Criar base de dados para remarketing e LTV.
+
+========================================================================================================================
+2) POSICIONAMENTO DE MARCA
+========================================================================================================================
+
+Posicionamento central
+----------------------
+AI Resume é uma ferramenta profissional, moderna e global, criada para transformar currículos em oportunidades reais de emprego.
+
+Mensagem-chave
+--------------
+- Não prometemos emprego.
+- Prometemos currículos melhores, mais claros, mais relevantes e alinhados às vagas reais.
+- A IA atua como um especialista em recrutamento e escrita profissional.
+
+Tom de comunicação
+------------------
+- Profissional
+- Direto
+- Claro
+- Confiante
+- Sem exageros ou promessas irreais
+
+========================================================================================================================
+3) ESTRUTURA DE AQUISIÇÃO (FUNIL)
+========================================================================================================================
+
+Topo do funil (TOFU)
+--------------------
+Objetivo: atrair atenção e gerar cliques qualificados.
+
+Canais:
+- Instagram Ads
+- LinkedIn Ads
+
+Conteúdo:
+- Dor (currículo não gera entrevistas)
+- Situação real (aplicações ignoradas)
+- Simplicidade da solução
+
+Médio do funil (MOFU)
+---------------------
+Objetivo: convencer o usuário a testar o produto.
+
+Ações:
+- Landing page clara
+- Demonstração visual do antes/depois
+- Explicação simples do funcionamento
+- Preço acessível por geração
+
+Fundo do funil (BOFU)
+---------------------
+Objetivo: conversão (pagamento ou assinatura).
+
+Ações:
+- CTA claro (“Generate your resume”)
+- Checkout simples
+- Prova de valor imediata (preview, estrutura, layout)
+
+Pós-conversão
+-------------
+- Upsell para assinatura
+- Remarketing
+- E-mails de ativação
+
+========================================================================================================================
+4) TRÁFEGO PAGO — INSTAGRAM (META ADS)
+========================================================================================================================
+
+Objetivo do canal
+-----------------
+Volume + validação rápida + CAC baixo.
+
+Formatos recomendados
+---------------------
+- Reels (principal)
+- Stories
+- Feed estático (secundário)
+
+Criativos (ideias)
+------------------
+1) Antes vs Depois (visual)
+   - Currículo genérico vs currículo otimizado
+   - Texto curto e impacto visual
+
+2) Dor direta
+   - “Sending resumes and getting no replies?”
+   - “Your resume is not the problem. The format is.”
+
+3) Simplicidade
+   - “Paste your resume. Paste the job. Get hired-ready.”
+
+4) Autoridade
+   - “Built with AI. Powered by R² Solutions Group.”
+
+Copies base (exemplos)
+----------------------
+- “Your resume isn’t bad. It’s just not optimized.”
+- “Turn your resume into real opportunities.”
+- “One resume doesn’t fit every job. AI Resume does.”
+
+CTA
+---
+- Generate your resume
+- Optimize my resume
+- Try AI Resume
+
+Segmentação inicial
+-------------------
+- Idade: 20–45
+- Interesses:
+  - Job search
+  - LinkedIn
+  - Recruitment
+  - Career development
+  - Remote work
+- Localização:
+  - Testar por país (ex.: Brasil, EUA, Canadá, Europa)
+- Idioma: inglês / local
+
+Orçamento sugerido (teste)
+--------------------------
+- US$ 10–30/dia por conjunto de anúncios
+- Testar 3–5 criativos por conjunto
+- Otimizar para cliques ou conversão (dependendo do volume)
+
+========================================================================================================================
+5) TRÁFEGO PAGO — LINKEDIN ADS
+========================================================================================================================
+
+Objetivo do canal
+-----------------
+Leads de maior valor, profissionais qualificados, maior ticket potencial.
+
+Formatos recomendados
+---------------------
+- Sponsored Content (feed)
+- Single image ads
+- Video curto (opcional)
+
+Públicos ideais
+---------------
+- Profissionais em:
+  - Tecnologia
+  - Finanças
+  - Marketing
+  - Operações
+- Senioridade:
+  - Junior a Senior
+- Situação:
+  - Open to work
+  - Job seekers
+  - Career switchers
+
+Abordagem de copy
+-----------------
+- Mais profissional
+- Menos emocional
+- Mais racional
+
+Exemplos de copy
+----------------
+- “Your resume should speak the language recruiters expect.”
+- “Optimize your resume for real job opportunities.”
+- “Designed for modern hiring processes.”
+
+CTA
+---
+- Optimize resume
+- Build resume
+- Get started
+
+Observação importante
+---------------------
+LinkedIn é mais caro. Usar:
+- Landing pages diretas
+- Mensagem clara
+- Ofertas simples (pay-per-use)
+
+========================================================================================================================
+6) LANDING PAGE (FOCO EM CONVERSÃO)
+========================================================================================================================
+
+Estrutura recomendada
+---------------------
+1) Hero section
+   - AI Resume
+   - Turning resumes into jobs
+   - CTA primário
+
+2) Problema
+   - Currículos genéricos
+   - Filtros automáticos
+   - Falta de clareza
+
+3) Solução
+   - Currículo otimizado
+   - Alinhado à vaga
+   - Pronto para exportar
+
+4) Como funciona (3 passos)
+5) Preview visual (template)
+6) Preços
+7) FAQ
+8) CTA final
+
+Selo institucional
+------------------
+- “Powered by R² Solutions Group”
+- Posicionado no footer ou abaixo do CTA
+- Visual discreto, institucional
+
+========================================================================================================================
+7) ESTRATÉGIA DE PREÇOS NO MARKETING
+========================================================================================================================
+
+Abordagem inicial
+-----------------
+- Preço baixo por geração para reduzir fricção
+- Destaque: “Pay once. Use now.”
+
+Mensagem-chave
+--------------
+- Sem compromisso
+- Sem assinatura obrigatória
+- Resultado imediato
+
+Upsell
+------
+- Após primeira geração:
+  - “Want unlimited optimizations?”
+  - Oferta de assinatura mensal
+
+========================================================================================================================
+8) REMARKETING (OBRIGATÓRIO)
+========================================================================================================================
+
+Públicos de remarketing
+-----------------------
+- Visitou a landing page e não converteu
+- Criou conta e não pagou
+- Pagou uma vez e não assinou
+- Assinante cancelado
+
+Mensagens
+---------
+- “Your resume is almost ready.”
+- “Finish your optimized resume.”
+- “Turn that resume into a real opportunity.”
+
+Canais
+------
+- Instagram
+- Facebook
+- (Futuro: Google Display)
+
+========================================================================================================================
+9) PROVAS SOCIAIS (EM CONSTRUÇÃO)
+========================================================================================================================
+
+Inicialmente
+------------
+- Mensagens qualitativas:
+  - “Used by professionals worldwide”
+  - “Built for modern hiring”
+
+Depois do MVP
+-------------
+- Depoimentos reais
+- Métricas:
+  - X resumes generated
+  - X countries
+  - X interviews reported (sem promessa)
+
+========================================================================================================================
+10) CONTEÚDO ORGÂNICO (SUPORTE AO PAGO)
+========================================================================================================================
+
+Objetivo
+--------
+Apoiar anúncios e aumentar confiança.
+
+Ideias de conteúdo
+------------------
+- Dicas de currículo
+- Erros comuns
+- Antes/depois
+- Trends de recrutamento
+- Bastidores do produto (build in public)
+
+Canais
+------
+- Instagram
+- LinkedIn (perfil institucional)
+
+========================================================================================================================
+11) MÉTRICAS DE MARKETING (KPIs)
+========================================================================================================================
+
+Aquisição
+---------
+- CPC
+- CTR
+- CPA
+
+Conversão
+---------
+- Taxa de conversão landing page
+- Conversão para pagamento
+- Conversão para assinatura
+
+Retenção
+--------
+- LTV
+- Churn
+- Recompra (pay-per-use)
+
+========================================================================================================================
+12) TESTES E ITERAÇÃO (CULTURA DATA-DRIVEN)
+========================================================================================================================
+
+O que testar
+------------
+- Copies (curta vs longa)
+- Emoção vs racional
+- Preço exibido vs oculto
+- CTA wording
+- Criativos (estático vs vídeo)
+
+Ciclo
+-----
+- Rodar teste por 7 dias
+- Pausar perdedores
+- Escalar vencedores
+- Iterar continuamente
+
+========================================================================================================================
+13) POSICIONAMENTO DA R² SOLUTIONS GROUP
+========================================================================================================================
+
+Função da marca R²
+------------------
+- Endosso técnico
+- Credibilidade
+- Engenharia e visão estratégica
+
+Onde aparecer
+-------------
+- Footer do site
+- Tela “About”
+- Pequena assinatura em telas premium
+- Material institucional
+
+Exemplo de uso
+--------------
+“AI Resume is powered by R² Solutions Group — Tech & Consulting”
+
+========================================================================================================================
+14) EXPANSÃO FUTURA DE MARKETING
+========================================================================================================================
+
+- Google Search Ads (keywords: resume builder, AI resume, CV optimization)
+- Parcerias com influenciadores de carreira
+- Afiliados
+- Programas B2B (HR, consultorias)
+- White-label para empresas
+
+========================================================================================================================
+15) RESUMO EXECUTIVO
+========================================================================================================================
+
+- Foco inicial: tráfego pago (Instagram + LinkedIn)
+- Conversão rápida com preço baixo
+- Upsell para assinatura
+- Marca AI Resume forte
+- R² Solutions Group como selo de credibilidade
+- Estratégia simples, escalável e orientada a dados
+
+========================================================================================================================
+FIM DO DOCUMENTO
+========================================================================================================================

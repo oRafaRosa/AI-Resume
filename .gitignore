@@ -12,11 +12,22 @@ dist
 dist-ssr
 *.local
 
+# Arquivos de documentação local e mídia pesada
+*.pdf
+*.docx
+*.zip
+*.tar
+*.gz
+
+# Ambiente e dados locais
+.env
+.env.*
+.DS_Store
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
