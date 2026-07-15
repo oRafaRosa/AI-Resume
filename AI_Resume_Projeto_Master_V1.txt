@@ -1,0 +1,595 @@
+AI RESUME — DOCUMENTO MASTER (V1)
+============================================================
+
+Nome do produto
+---------------
+AI Resume
+
+Slogan global (principal)
+-------------------------
+Turning resumes into jobs
+
+Variações do slogan por idioma (localização)
+--------------------------------------------
+EN (Global): Turning resumes into jobs
+ES (Espanhol): Convirtiendo currículums en empleos
+FR (Francês): Du CV à l’emploi
+DE (Alemão): Vom Lebenslauf zum Job
+IT (Italiano): Dal curriculum al lavoro
+PT-BR / PT: Transformando currículos em empregos
+JA (Japonês): 履歴書から仕事へ
+ZH-CN (Chinês simplificado): 让简历变成工作
+
+Observação: A recomendação é manter o slogan principal em inglês em materiais globais e usar as versões localizadas
+somente em páginas/ads específicos por país/idioma.
+
+========================================================================================================================
+1) VISÃO GERAL DO PROJETO
+========================================================================================================================
+
+Objetivo
+--------
+Criar um aplicativo web (e posteriormente mobile) para gerar e otimizar currículos e cartas de apresentação com apoio de IA,
+aumentando a chance do usuário ser chamado para entrevistas. O app funciona tanto para pessoas que precisam de um currículo do zero
+quanto para quem já possui um currículo e quer adaptá-lo para uma vaga específica.
+
+Tese do produto
+---------------
+- Recrutamento moderno filtra candidatos rapidamente (triagens, palavras-chave, clareza, consistência e relevância).
+- A maioria dos currículos é “genérica”, não conversa com a vaga e não apresenta impacto.
+- A IA entra como um “editor profissional” + “especialista em vagas”, ajustando estrutura, linguagem e alinhamento ao anúncio.
+
+Princípios do produto
+---------------------
+1) Simplicidade: gerar/otimizar em poucos passos.
+2) Qualidade: saída final com texto profissional e objetivo.
+3) Honestidade: NUNCA inventar experiências, empresas, formações ou conquistas.
+4) Internacionalização nativa: interface e saídas em vários idiomas.
+5) Monetização clara: IA só é acionada após pagamento ou plano ativo.
+
+========================================================================================================================
+2) PÚBLICO-ALVO E CASOS DE USO
+========================================================================================================================
+
+Público-alvo
+------------
+- Pessoas desempregadas buscando recolocação.
+- Profissionais em transição de carreira.
+- Profissionais buscando promoções e melhores salários.
+- Jovens (primeiro emprego/estágio).
+- Profissionais globais que aplicam para vagas internacionais.
+
+Casos de uso principais
+-----------------------
+1) “Preciso montar meu currículo do zero”
+2) “Tenho um currículo, mas ele não gera entrevistas”
+3) “Quero adaptar meu currículo para uma vaga específica”
+4) “Quero mudar de área e destacar habilidades transferíveis”
+5) “Quero aplicar em outro país/idioma (CV internacional)”
+
+========================================================================================================================
+3) PROPOSTA DE VALOR (VALUE PROP)
+========================================================================================================================
+
+- Currículo pronto em minutos com layout moderno e claro.
+- Otimização automática para a vaga (quando o usuário cola a descrição da vaga).
+- Sugestões de melhorias (clareza, impacto, métricas, palavras-chave relevantes).
+- Exportação em PDF (e futuramente DOCX).
+- Variações por idioma e ajuste cultural (ex.: CV europeu vs. americano).
+- Histórico de versões para o usuário comparar e escolher.
+
+========================================================================================================================
+4) PLANOS E MONETIZAÇÃO
+========================================================================================================================
+
+Modelo sugerido
+---------------
+A) Pagamento por uso (Pay-per-resume)
+- Ex.: US$ 3.99 / R$ 4,99 / € 3.49 por geração/export.
+- Permite o usuário testar sem compromisso e valida o produto rapidamente.
+
+B) Assinatura (Subscription)
+- Ex.: US$ 9.99–14.99/mês (varia por mercado)
+- Benefícios:
+  - Otimizações ilimitadas
+  - Análise de vaga ilimitada
+  - Histórico e versionamento
+  - Cartas de apresentação
+  - Modelos premium
+  - Exportações ilimitadas
+
+Regras de acionamento da IA
+---------------------------
+- IA só roda se: (paid_user = true) OR (active_subscription = true)
+- Para tráfego gratuito: mostrar prévia ou um “mock” de layout, mas sem chamar IA (ou usar regras fixas simples).
+
+========================================================================================================================
+5) FUNCIONALIDADES (DETALHADAS)
+========================================================================================================================
+
+5.1) Onboarding + criação de perfil
+-----------------------------------
+Objetivo: coletar dados mínimos para gerar conteúdo com qualidade.
+
+Campos sugeridos:
+- Nome (opcional exibir completo; em alguns países não é recomendado)
+- Localização (cidade/país)
+- Contato (email, telefone, LinkedIn, portfólio)
+- Idioma principal do currículo
+- Cargo alvo (job title)
+- Senioridade (jr, mid, sr, lead)
+- Área (TI, finanças, marketing etc.)
+
+5.2) Formulário de currículo (dados base)
+-----------------------------------------
+Estrutura:
+A) Resumo profissional (opcional se usuário não souber, a IA gera)
+B) Experiências
+   - Empresa
+   - Cargo
+   - Período
+   - Local (opcional)
+   - Descrição (tarefas, conquistas, números)
+C) Educação
+D) Certificações
+E) Habilidades (hard/soft)
+F) Idiomas
+G) Projetos (se aplicável)
+H) Voluntariado (opcional)
+I) Links (portfólio/github)
+
+Validações
+----------
+- Datas consistentes (início <= fim)
+- Campos essenciais para gerar um bom currículo
+- Aviso de “quanto mais detalhado, melhor o resultado”
+
+5.3) Importação de currículo (upload / colar texto)
+---------------------------------------------------
+Para reduzir fricção:
+- Upload PDF/DOCX (futuro) ou colar texto do currículo.
+- Parser inicial (simples) para preencher campos automaticamente.
+- Usuário revisa e corrige.
+
+5.4) Análise de vaga (feature premium)
+--------------------------------------
+Inputs:
+- Descrição da vaga (job description)
+- Requisitos / responsabilidades
+- Local (remote/hybrid/on-site)
+- Stack/habilidades exigidas
+
+Outputs:
+- Pontos de aderência (match score) [ex.: 0–100]
+- Lista de skills relevantes encontradas no currículo
+- Lista de gaps (skills ausentes / pouco evidentes)
+- Sugestões de ajustes:
+  - reorganizar tópicos
+  - trocar palavras por termos mais aderentes
+  - destacar experiências que respondem ao anúncio
+
+Observação: O “match score” deve ser uma métrica auxiliar, não uma promessa.
+
+5.5) Otimização do currículo para vaga (feature premium)
+--------------------------------------------------------
+Otimizações típicas:
+- Ajustar resumo profissional ao cargo alvo
+- Reescrever bullet points usando ação + impacto + métrica
+- Enxugar frases longas, remover redundâncias
+- Reordenar habilidades conforme relevância do anúncio
+- Recomendar keywords (sem inventar habilidades)
+
+5.6) Gerador de bullet points (micro-feature)
+---------------------------------------------
+Usuário fornece:
+- cargo + tarefa + contexto
+O app retorna:
+- 3 a 6 bullets fortes, sem mentir, com linguagem profissional
+
+5.7) Carta de apresentação (feature premium)
+--------------------------------------------
+Inputs:
+- Currículo
+- Vaga
+- Tom desejado (formal / direto / criativo)
+Outputs:
+- cover letter ajustada ao país/idioma
+
+5.8) Exportação / formatação
+----------------------------
+- Export PDF com modelos de layout
+- Opção de esconder informações sensíveis (endereço completo etc.)
+- Ajuste de fonte/espacamento para “1 página” quando possível
+
+5.9) Histórico e versionamento
+------------------------------
+- “Meu currículo base”
+- “Versão para vaga X”
+- “Versão em inglês”
+- Comparar versões (diff simples)
+
+5.10) Conta, pagamento e assinatura
+-----------------------------------
+- Login (email + senha / OAuth Google/LinkedIn)
+- Checkout (Stripe / MercadoPago / Paddle etc.)
+- Portal do assinante (gerenciar plano, recibos, cancelamento)
+- Controle de uso: rate limits e fair use
+
+========================================================================================================================
+6) IA (MODELO, USO E CONTROLE)
+========================================================================================================================
+
+Modelo escolhido (custo-benefício)
+----------------------------------
+- OpenAI: GPT-4o mini
+
+Por quê?
+--------
+- Excelente para escrita e reescrita profissional
+- Bom em múltiplos idiomas
+- Custo previsível e baixo
+- Estável para produção
+- Ótimo para tarefas de “editor” e “consultor de conteúdo”
+
+Política de segurança e qualidade (anti-alucinação)
+---------------------------------------------------
+Regras que o prompt deve reforçar SEMPRE:
+1) Use SOMENTE as informações fornecidas pelo usuário.
+2) Não invente empresas, cargos, formações, certificados ou resultados.
+3) Se faltarem dados para uma métrica, sugerir formato (“aumentou em X%”) como placeholder e pedir confirmação do usuário, ou omitir.
+4) Não inserir dados sensíveis (documentos, endereço detalhado) se o usuário não fornecer.
+
+Estratégia de prompts
+---------------------
+- System/Developer prompt: define papel (“especialista em currículos e recrutamento”), regras, formato de saída.
+- User prompt: currículo + vaga + preferências.
+- Resposta da IA: sempre retornar em estrutura padronizada (JSON ou markdown com seções).
+
+Sugestão de retorno estruturado (exemplo)
+-----------------------------------------
+- resume_text: string (texto final formatado)
+- sections: { summary, experience[], education[], skills[], etc. }
+- keywords: [ ... ]
+- gaps: [ ... ]
+- notes_for_user: [ ... ] (ex.: “adicione números se possível”)
+
+Controle de custo (muito importante)
+------------------------------------
+- Evitar múltiplas chamadas por ação. Preferir 1 chamada “tudo em um”.
+- Limitar tamanho de entradas (ex.: cortar descrição de vaga muito grande).
+- Cachear resultados quando o usuário repetir a mesma vaga/currículo.
+- Rate limit por plano (para evitar abuso e proteger margem).
+
+========================================================================================================================
+7) ESTRUTURA DO APP (ARQUITETURA)
+========================================================================================================================
+
+Visão macro (componentes)
+-------------------------
+1) Front-end (Web)
+   - UI/UX, formulários, templates, preview do currículo
+2) Back-end (API)
+   - Autenticação, cobrança, controle de uso, chamadas para IA
+3) Banco de dados
+   - Usuários, currículos, versões, assinaturas, logs
+4) Serviço de IA (OpenAI)
+   - GPT-4o mini chamado via API
+5) Storage
+   - PDFs gerados, anexos (opcional), assets de templates
+
+Recomendação de stack (exemplo)
+-------------------------------
+- Front-end: Next.js (React) + Tailwind
+- Back-end: Node.js (Next API routes) OU FastAPI (Python)
+- DB: Postgres (Supabase) ou Firebase/Firestore
+- Pagamentos: Stripe (global) + Mercado Pago (BR) (opcional)
+- Geração PDF: Puppeteer/Playwright (HTML -> PDF) ou React-PDF
+
+Fluxo de dados (alto nível)
+---------------------------
+Usuário -> Front-end -> API (validar pagamento/assinatura) -> OpenAI -> Resposta -> Salvar versão -> Render -> Export PDF
+
+Padrão recomendado
+------------------
+- NUNCA chamar OpenAI direto do front-end (evita expor chave e facilita controle de custos).
+- Backend com “usage metering” (medição) e logs.
+
+========================================================================================================================
+8) LAYOUT (TELAS E EXPERIÊNCIA)
+========================================================================================================================
+
+Objetivo do layout
+------------------
+- Interface limpa, moderna, rápida.
+- O usuário deve sentir “controle” do currículo.
+- Preview instantâneo com templates.
+
+Estrutura geral (navegação)
+---------------------------
+- Top bar: logo, idioma, conta
+- Sidebar (desktop) / bottom nav (mobile):
+  1) Dashboard
+  2) Meu Currículo
+  3) Analisar Vaga (Premium)
+  4) Otimizar (Premium)
+  5) Templates
+  6) Histórico
+  7) Plano / Billing
+  8) Suporte
+
+Tela 1: Landing page
+--------------------
+- Hero: “AI Resume” + slogan + CTA
+- Prova social (depoimentos/estatísticas, futuramente)
+- Como funciona (3 passos)
+- Preços
+- FAQ
+- CTA final
+
+Tela 2: Dashboard
+-----------------
+- Botão “Criar novo currículo”
+- Botão “Importar currículo”
+- Status do plano
+- Últimas versões geradas
+- Atalhos: “Otimizar para vaga”
+
+Tela 3: Formulário do currículo
+-------------------------------
+- Wizard por etapas:
+  1) Dados pessoais
+  2) Resumo
+  3) Experiência
+  4) Educação
+  5) Skills
+  6) Extras
+- Botão “Preview”
+- Auto-save
+
+Tela 4: Preview + Templates
+---------------------------
+- Visualização do currículo em template escolhido
+- Trocar template (modern / classic / minimal)
+- Ajustes: idioma, tamanho, spacing
+- Botão “Exportar PDF” (pago/assinante)
+
+Tela 5: Analisar Vaga (Premium)
+-------------------------------
+- Campo para colar job description
+- Selecionar currículo base
+- Resultado:
+  - Match score (visual simples)
+  - Gaps e sugestões
+  - Keywords recomendadas
+
+Tela 6: Otimizar para vaga (Premium)
+------------------------------------
+- Confirmar vaga
+- Selecionar template/idioma
+- Botão “Gerar versão otimizada”
+- Resultado: versão final + comparativo (opcional)
+
+Tela 7: Histórico
+-----------------
+- Lista de versões
+- Tags por vaga/idioma
+- Comparar versões
+- Duplicar versão
+
+Tela 8: Billing / Plano
+-----------------------
+- Planos
+- Upgrade/downgrade/cancel
+- Uso do mês (para planos limitados)
+- Histórico de pagamento
+
+========================================================================================================================
+9) INTERNACIONALIZAÇÃO (I18N) E LOCALIZAÇÃO (L10N)
+========================================================================================================================
+
+I18N (interface)
+----------------
+- Sistema de traduções por chaves (en.json, es.json, fr.json...)
+- Detectar idioma do navegador com fallback
+- Permitir troca manual de idioma
+- Cuidado com layout: alguns idiomas “crescem” (alemão) e precisam de espaço
+
+L10N (conteúdo gerado)
+----------------------
+- O currículo deve respeitar convenções locais:
+  - EUA: geralmente sem foto, sem idade
+  - Europa: algumas regiões usam foto (depende)
+  - Brasil: foto é opcional; LinkedIn bem comum
+- Regras devem ser configuráveis por “country profile”
+
+Formato de data e moeda
+-----------------------
+- datas: MM/YYYY vs YYYY-MM
+- moeda: exibida na tela de billing conforme país
+
+========================================================================================================================
+10) DADOS, PRIVACIDADE E COMPLIANCE
+========================================================================================================================
+
+Dados armazenados
+-----------------
+- Perfil do usuário (mínimo)
+- Currículos e versões
+- Logs de uso (sem expor texto completo em logs de analytics)
+- Billing (IDs de pagamento, status)
+
+Privacidade
+-----------
+- Deixar claro: “não vendemos dados”
+- Termos e política de privacidade por região (GDPR / LGPD)
+- Opção de apagar conta e dados
+
+Segurança
+---------
+- Criptografia em trânsito (HTTPS)
+- Criptografia em repouso (DB)
+- Proteção de endpoints (JWT)
+- Rate limiting
+- Auditoria de acesso (logs)
+
+========================================================================================================================
+11) ESTRUTURA DO PRODUTO (MVP → V2 → V3)
+========================================================================================================================
+
+MVP (primeira versão vendável)
+------------------------------
+- Login
+- Formulário de currículo + preview
+- 2 templates
+- Pagamento por geração
+- Chamada IA (GPT-4o mini) para:
+  - gerar resumo profissional
+  - reescrever experiências
+  - estruturar skills
+- Export PDF
+
+V2 (melhorar retenção)
+----------------------
+- Análise de vaga + otimização por vaga
+- Histórico e versionamento
+- Assinatura mensal
+- Cover letter
+- Mais templates
+
+V3 (produto “premium global”)
+-----------------------------
+- Importação automática PDF/DOCX (parser melhor)
+- Integração com LinkedIn (import)
+- A/B templates por país
+- “Job Tracker” (pipeline de candidaturas)
+- “Interview Prep” (simulação de entrevista com IA)
+
+========================================================================================================================
+12) EXPERIÊNCIA DO USUÁRIO (UX) — REGRAS PRÁTICAS
+========================================================================================================================
+
+- Sempre mostrar “Preview” rápido para dar sensação de progresso.
+- Não travar usuário com formulários longos: usar wizard + salvar automático.
+- Mostrar exemplos (“exemplo de bullet point bom”).
+- No premium, mostrar antes/depois (“diferença real”).
+- Em cada geração por IA, mostrar:
+  - O que foi melhorado
+  - O que o usuário pode adicionar para ficar ainda melhor
+
+========================================================================================================================
+13) DESIGN SYSTEM (SUGESTÃO)
+========================================================================================================================
+
+Estilo visual
+-------------
+- Minimalista, clean, premium
+- Tipografia: Inter / SF Pro / similar
+- Cores:
+  - Base: preto/branco/cinza
+  - Accent: uma cor única (ex.: azul) para CTAs e highlights
+- Componentes:
+  - Cards, inputs, stepper, progress bars
+  - Template viewer com zoom e paginação
+
+Acessibilidade
+--------------
+- Contraste adequado
+- Navegação por teclado
+- Labels e aria
+
+========================================================================================================================
+14) EXEMPLO DE “COMO FUNCIONA” (PARA LANDING PAGE)
+========================================================================================================================
+
+Step 1: Add your details
+- Preencha informações básicas e sua experiência.
+
+Step 2: Paste a job description (Premium)
+- Cole a descrição da vaga e selecione o idioma.
+
+Step 3: Generate your optimized resume
+- O AI Resume cria uma versão alinhada e pronta para exportar em PDF.
+
+========================================================================================================================
+15) MÉTRICAS (KPI) IMPORTANTES
+========================================================================================================================
+
+Aquisição
+---------
+- CTR de anúncios
+- Taxa de cadastro
+
+Ativação
+--------
+- % usuários que completam o currículo
+- Tempo médio até exportar
+
+Monetização
+-----------
+- Conversão para pagamento (pay-per-use)
+- Conversão para assinatura
+- Churn (assinatura)
+
+Retenção
+--------
+- Usuários que voltam para gerar versões por vaga
+- Uso por usuário/mês
+
+Qualidade percebida
+-------------------
+- NPS
+- “Did you get an interview?” (pesquisa opcional)
+
+========================================================================================================================
+16) RISCOS E MITIGAÇÕES
+========================================================================================================================
+
+Risco: IA inventar coisas
+- Mitigação: prompt rígido + validação + “somente informações fornecidas”.
+
+Risco: usuário inserir dados sensíveis e querer remover depois
+- Mitigação: opção de apagar versões, política clara e controle do usuário.
+
+Risco: abuso do plano (usuário rodando IA sem parar)
+- Mitigação: rate limits, fair use, detecção de padrões, planos empresariais.
+
+Risco: expectativas irreais (“garantia de emprego”)
+- Mitigação: copy honesta + disclaimers.
+
+========================================================================================================================
+17) ROADMAP DE IMPLEMENTAÇÃO (SUGESTÃO)
+========================================================================================================================
+
+Semana 1–2
+- Design de fluxo e telas
+- Banco + auth + estrutura base
+
+Semana 3–4
+- Formulário completo + preview template
+- Export PDF
+- Billing básico
+
+Semana 5
+- Integração OpenAI (GPT-4o mini)
+- Prompt v1 e retorno estruturado
+
+Semana 6
+- Lançamento MVP (1 país/idioma)
+- Instrumentação de métricas
+
+Depois
+- i18n completo + mais países + premium features
+
+========================================================================================================================
+18) ANEXOS (IDEIAS EXTRAS)
+========================================================================================================================
+
+- Modo “Conservative / Balanced / Bold” (prompts diferentes)
+- Templates específicos por país
+- “ATS checklist” automatizado (sem prometer)
+- Export LinkedIn summary
+- Página pública do currículo (link compartilhável) com controle do usuário
+
+========================================================================================================================
+FIM DO DOCUMENTO
+========================================================================================================================

@@ -10,13 +10,38 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+coverage
+playwright-report
+test-results
+.artifacts
+.codex-log
+.vercel
+.vite
+*.tsbuildinfo
+*.backup
+uploads
+exports
+tmp
+.data
 *.local
+
+# Arquivos de documentação local e mídia pesada
+*.pdf
+*.docx
+*.zip
+*.tar
+*.gz
+
+# Ambiente e dados locais
+.env
+.env.*
+!.env.example
+.DS_Store
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
