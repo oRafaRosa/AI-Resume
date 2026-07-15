@@ -1,9 +1,5 @@
-# Briefing e documentos de orientação
+# Fontes de briefing
 
-Esta pasta reúne os materiais de briefing, revisão e base de conhecimento usados para evoluir o portfólio de Rafael Rosa.
+A fonte canônica atual é [`docs/product/BRIEFING_AI_RESUME_2.md`](../product/BRIEFING_AI_RESUME_2.md), convertida do DOCX/PDF recebido em 15/07/2026.
 
-## Conteúdo
-- Briefing operacional e estratégico para o portfólio
-- Orientações de experiência visual e frontend
-- Revisões de UX e arquitetura
-- Base de conhecimento resumida sobre Rafael e os produtos
+Os binários originais ficam fora do Git conforme `.gitignore`. Documentos anteriores sobre portfólio pessoal são considerados legado e não substituem o briefing do produto AI Resume 2.0.

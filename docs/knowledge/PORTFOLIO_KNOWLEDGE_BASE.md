@@ -1,4 +1,6 @@
-# Base de conhecimento do portfólio
+# Base de conhecimento do portfólio — legado
+
+> Arquivo histórico. Não é fonte de verdade para o produto AI Resume 2.0. Consulte `docs/product/KNOWLEDGE_BASE.md`.
 
 ## Rafael Rosa
 Profissional de Auditoria Interna com foco em Data Analytics, automação e IA. Experiência em EY, KPMG, PwC e Grupo Casas Bahia.

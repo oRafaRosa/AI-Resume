@@ -1,0 +1,38 @@
+{
+  "campaign": "ai-resume-phase1",
+  "locale": "pt-BR",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "aspectRatio": "9:16"
+  },
+  "safeArea": {
+    "top": 269,
+    "right": 86,
+    "bottom": 384,
+    "left": 86
+  },
+  "assets": [
+    {
+      "file": "01-vaga-plano-9x16.png",
+      "concept": "vaga-plano",
+      "funnel": "tofu-mofu",
+      "nativeCta": "LEARN_MORE",
+      "utmContent": "vaga_plano_static_v1"
+    },
+    {
+      "file": "02-controle-humano-9x16.png",
+      "concept": "controle-humano",
+      "funnel": "mofu",
+      "nativeCta": "LEARN_MORE",
+      "utmContent": "controle_humano_static_v1"
+    },
+    {
+      "file": "03-tres-passos-9x16.png",
+      "concept": "tres-passos",
+      "funnel": "tofu",
+      "nativeCta": "GET_STARTED",
+      "utmContent": "tres_passos_static_v1"
+    }
+  ]
+}
